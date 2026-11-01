@@ -3,7 +3,9 @@ logininfo = {
     "password": "Python"
 }
 
-total_questions = 3
+total_questions = 10
+#This variable was made to make the testing easier by writing a smaller number of quesitons.
+
 question_number = 1
 questions_correct = 0
 
