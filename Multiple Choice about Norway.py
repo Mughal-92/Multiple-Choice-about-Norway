@@ -9,6 +9,8 @@ questions_correct = 0
 
 wrong_answers = []
 
+#Login function 
+
 def login_info(username, password):
     if username == logininfo["username"] and password == logininfo["password"]:
         print("Login successful!")
@@ -18,9 +20,11 @@ def login_info(username, password):
 
 login_info(input("Enter your username: "), input("Enter your password: "))
 
+
 def answer_check(user_answer, correct_answer):
     return user_answer == correct_answer
 
+# The quiz dictionary was generated using Copilot.
 quiz = {
     "Question 1": {
         "question": "What is the capital of Norway?",
